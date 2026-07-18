@@ -1,0 +1,11 @@
+Analyze the Apache access log located in the working directory.
+
+Generate a file named `/app/report.json`.
+
+The JSON must contain exactly these fields:
+
+- total_requests
+- unique_ips
+- top_path
+
+The values must be calculated from the access log.
